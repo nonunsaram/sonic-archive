@@ -87,18 +87,25 @@ function projectCard(project, platforms, byId) {
   // 판마다 받는 곳이 다르면 "downloads": [{ "label": "GC", "url": "…" }]처럼 여러 개를 적습니다.
   const downloads = project.downloads ?? (links.download ? [{ url: links.download }] : []);
   const store = url => /gamebanana\.com/.test(url) ? ['gamebanana', 'GameBanana'] : /github\.com/.test(url) ? ['github', 'GitHub Releases'] : [null, '다운로드'];
+  const related = (project.related ?? []).map(id => byId.get(id)).filter(Boolean);
   const actions = el('div', { class: 'actions' },
-    el('div', { class: 'downloads' }, ...downloads.map(item => {
-      const [iconName, label] = store(item.url);
-      return el('a', { class: 'btn primary', ...linkAttrs(item.url) },
-        item.label && el('span', { class: 'tag' }, item.label), iconName && icon(iconName), label);
-    })),
+    el('ul', { class: 'facts' },
+      el('li', {}, el('span', {}, '대상'), project.targets
+        ? el('div', { class: 'targets' }, ...project.targets.map(target =>
+            el('div', {}, el('span', {}, target.label), target.id && el('code', { class: 'game-id', title: '게임 ID' }, target.id))))
+        : el('div', {}, project.base)),
+      project.highlights?.length > 0 && el('li', {}, el('span', {}, '특징'), project.highlights.join(' · ')),
+      related.length > 0 && el('li', {}, el('span', {}, '관련'), ...related.map((item, index) => [index ? ', ' : '', el('a', { href: `#${item.id}` }, item.title)]))),
     el('div', { class: 'links' },
       links.guide && el('a', { class: 'btn small', ...linkAttrs(links.guide) }, '설치 안내'),
       links.site && el('a', { class: 'btn small', ...linkAttrs(links.site) }, '소개·매뉴얼'),
       links.issues && el('a', { class: 'btn small', ...linkAttrs(links.issues) }, '문제 제보'),
-      links.repo && el('a', { class: 'btn small icon-only', ...linkAttrs(links.repo), 'aria-label': `${project.title} GitHub 저장소`, title: 'GitHub 저장소' }, icon('github'))));
-  const related = (project.related ?? []).map(id => byId.get(id)).filter(Boolean);
+      links.repo && el('a', { class: 'btn small icon-only', ...linkAttrs(links.repo), 'aria-label': `${project.title} GitHub 저장소`, title: 'GitHub 저장소' }, icon('github'))),
+    el('div', { class: 'downloads' }, ...downloads.map(item => {
+      const [iconName, label] = store(item.url);
+      return el('a', { class: 'btn primary', ...linkAttrs(item.url) },
+        item.label && el('span', { class: 'tag' }, item.label), iconName && icon(iconName), label);
+    })));
   return el('article', { class: 'project', id: project.id, 'data-platform': platformIds(project).join(' ') },
     projectMedia(project, platform),
     el('div', { class: 'project-body' },
@@ -109,13 +116,6 @@ function projectCard(project, platforms, byId) {
       el('h3', {}, project.title),
       el('p', { class: 'original' }, project.originalTitle, project.year && ` (${project.year})`),
       el('p', { class: 'summary' }, project.summary),
-      el('ul', { class: 'facts' },
-        el('li', {}, el('span', {}, '대상'), project.targets
-          ? el('div', { class: 'targets' }, ...project.targets.map(target =>
-              el('div', {}, target.label, target.id && el('code', { class: 'game-id', title: '게임 ID' }, target.id))))
-          : project.base),
-        project.highlights?.length > 0 && el('li', {}, el('span', {}, '특징'), project.highlights.join(' · ')),
-        related.length > 0 && el('li', {}, el('span', {}, '관련'), ...related.map((item, index) => [index ? ', ' : '', el('a', { href: `#${item.id}` }, item.title)]))),
       actions));
 }
 
