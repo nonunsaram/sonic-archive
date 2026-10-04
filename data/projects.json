@@ -44,17 +44,17 @@
       "year": 2009,
       "platform": "wii",
       "base": "북미판 Wii (RENE8P)",
-      "version": "v0.1 alpha",
-      "status": "alpha",
-      "updated": "2026-09-29",
-      "summary": "한글 UI와 본편·인게임 자막을 적용한 Dolphin용 시험 배포판입니다.",
+      "version": "v1.0",
+      "status": "released",
+      "updated": "2026-10-04",
+      "summary": "한글 UI와 본편·인게임·특전 자막을 적용한 Dolphin용 한국어 패치입니다. 원본 ISO에 적용해 한국어판 ISO를 만듭니다.",
       "image": "assets/img/games/sonic-black-knight.jpg",
       "imagePosition": "center 30%",
       "highlights": [
         "Xbox 패드 프로필 포함"
       ],
       "links": {
-        "download": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean/releases",
+        "download": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean/releases/tag/v1.0",
         "guide": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean#readme",
         "repo": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean",
         "issues": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean/issues"
