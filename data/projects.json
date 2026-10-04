@@ -43,7 +43,12 @@
       "originalTitle": "Sonic and the Black Knight",
       "year": 2009,
       "platform": "wii",
-      "base": "북미판 Wii (RENE8P)",
+      "targets": [
+        {
+          "label": "북미판 Wii",
+          "id": "RENE8P"
+        }
+      ],
       "version": "v1.0",
       "status": "released",
       "updated": "2026-10-04",
@@ -69,7 +74,19 @@
         "gamecube",
         "pc"
       ],
-      "base": "일본판 · 미국판 GC, PC (Reloaded II)",
+      "targets": [
+        {
+          "label": "일본판 GC",
+          "id": "G9SJ8P"
+        },
+        {
+          "label": "미국판 GC (Rev 0)",
+          "id": "G9SE8P"
+        },
+        {
+          "label": "PC (Reloaded II 모드)"
+        }
+      ],
       "version": "GC v1.1.0",
       "status": "released",
       "updated": "2026-10-04",
@@ -97,7 +114,12 @@
       "originalTitle": "Sonic Mega Collection Plus",
       "year": 2004,
       "platform": "ps2",
-      "base": "일본판 PS2",
+      "targets": [
+        {
+          "label": "일본판 PS2",
+          "id": "SLPM-65758"
+        }
+      ],
       "version": "v1.0.0",
       "status": "released",
       "updated": "2026-10-04",
@@ -117,7 +139,12 @@
       "originalTitle": "Sonic Riders",
       "year": 2006,
       "platform": "gamecube",
-      "base": "일본판 GC (GXEJ8P)",
+      "targets": [
+        {
+          "label": "일본판 GC",
+          "id": "GXEJ8P"
+        }
+      ],
       "version": "v1.0",
       "status": "released",
       "updated": "2026-09-27",
@@ -136,7 +163,16 @@
       "originalTitle": "Shadow the Hedgehog: Reloaded",
       "year": 2022,
       "platform": "gamecube",
-      "base": "Reloaded v1.2 (GC)",
+      "targets": [
+        {
+          "label": "Reloaded v1.2",
+          "id": "GUPR8P"
+        },
+        {
+          "label": "일본어 음성용 일본판 원본",
+          "id": "GUPJ8P"
+        }
+      ],
       "version": "v1.0",
       "status": "released",
       "updated": "2026-10-04",
@@ -154,7 +190,16 @@
       "originalTitle": "Shadow the Hedgehog",
       "year": 2005,
       "platform": "gamecube",
-      "base": "일본판 · 미국판 GC",
+      "targets": [
+        {
+          "label": "일본판 GC",
+          "id": "GUPJ8P"
+        },
+        {
+          "label": "미국판 GC",
+          "id": "GUPE8P"
+        }
+      ],
       "version": "v0.1",
       "status": "released",
       "updated": "2026-10-04",

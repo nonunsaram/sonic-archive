@@ -110,7 +110,10 @@ function projectCard(project, platforms, byId) {
       el('p', { class: 'original' }, project.originalTitle, project.year && ` (${project.year})`),
       el('p', { class: 'summary' }, project.summary),
       el('ul', { class: 'facts' },
-        el('li', {}, el('span', {}, '대상'), project.base),
+        el('li', {}, el('span', {}, '대상'), project.targets
+          ? el('div', { class: 'targets' }, ...project.targets.map(target =>
+              el('div', {}, target.label, target.id && el('code', { class: 'game-id', title: '게임 ID' }, target.id))))
+          : project.base),
         project.highlights?.length > 0 && el('li', {}, el('span', {}, '특징'), project.highlights.join(' · ')),
         related.length > 0 && el('li', {}, el('span', {}, '관련'), ...related.map((item, index) => [index ? ', ' : '', el('a', { href: `#${item.id}` }, item.title)]))),
       actions));
