@@ -107,7 +107,7 @@ function projectCard(project, platforms, byId) {
         project.version && el('span', { class: 'version' }, project.version),
         project.updated && el('span', { class: 'updated' }, `${formatDate(project.updated)} 업데이트`)),
       el('h3', {}, project.title),
-      el('p', { class: 'original' }, project.originalTitle),
+      el('p', { class: 'original' }, project.originalTitle, project.year && ` (${project.year})`),
       el('p', { class: 'summary' }, project.summary),
       el('ul', { class: 'facts' },
         el('li', {}, el('span', {}, '대상'), project.base),

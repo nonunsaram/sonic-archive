@@ -32,6 +32,7 @@ https://nonunsaram.github.io/sonic-archive/ 에 게시되는 소닉 시리즈 �
 | --- | --- |
 | `id` | 저장소 이름 권장. 카드 주소(`#id`)로도 쓰입니다. |
 | `platform` | `data/platforms.json`의 키 (`gamecube`, `wii`, `ps2`, `pc`, `megadrive`). 새 기종은 그 파일에 이름과 색을 추가합니다. 여러 기종을 한 카드에 묶으려면 `["gamecube", "pc"]`처럼 배열로 적습니다. |
+| `year` | 선택. 원작 발매연도. 영어 제목 옆에 (2003)처럼 붙습니다. |
 | `status` | `released`(배포 중), `beta`, `alpha`, `wip`(작업 중) |
 | `links` | 모두 선택 항목입니다. `download`, `guide`, `site`(소개·매뉴얼 사이트), `issues`, `repo` |
 | `downloads` | 선택. 판마다 받는 곳이 다를 때 `[{ "label": "PC", "url": "…" }]`처럼 여러 개 적습니다. 다운로드 버튼은 주소를 보고 GitHub Releases / GameBanana 아이콘을 자동으로 붙입니다. |
