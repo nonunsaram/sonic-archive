@@ -89,6 +89,11 @@ function projectCard(project, platforms, byId) {
   const store = url => /gamebanana\.com/.test(url) ? ['gamebanana', 'GameBanana'] : /github\.com/.test(url) ? ['github', 'GitHub Releases'] : [null, '다운로드'];
   const related = (project.related ?? []).map(id => byId.get(id)).filter(Boolean);
   const actions = el('div', { class: 'actions' },
+    el('div', { class: 'links' },
+      links.guide && el('a', { class: 'btn small', ...linkAttrs(links.guide) }, '설치 안내'),
+      links.site && el('a', { class: 'btn small', ...linkAttrs(links.site) }, '소개·매뉴얼'),
+      links.issues && el('a', { class: 'btn small', ...linkAttrs(links.issues) }, '문제 제보'),
+      links.repo && el('a', { class: 'btn small icon-only', ...linkAttrs(links.repo), 'aria-label': `${project.title} GitHub 저장소`, title: 'GitHub 저장소' }, icon('github'))),
     el('ul', { class: 'facts' },
       el('li', {}, el('span', {}, '대상'), project.targets
         ? el('div', { class: 'targets' }, ...project.targets.map(target =>
@@ -96,11 +101,6 @@ function projectCard(project, platforms, byId) {
         : el('div', {}, project.base)),
       project.highlights?.length > 0 && el('li', {}, el('span', {}, '특징'), project.highlights.join(' · ')),
       related.length > 0 && el('li', {}, el('span', {}, '관련'), ...related.map((item, index) => [index ? ', ' : '', el('a', { href: `#${item.id}` }, item.title)]))),
-    el('div', { class: 'links' },
-      links.guide && el('a', { class: 'btn small', ...linkAttrs(links.guide) }, '설치 안내'),
-      links.site && el('a', { class: 'btn small', ...linkAttrs(links.site) }, '소개·매뉴얼'),
-      links.issues && el('a', { class: 'btn small', ...linkAttrs(links.issues) }, '문제 제보'),
-      links.repo && el('a', { class: 'btn small icon-only', ...linkAttrs(links.repo), 'aria-label': `${project.title} GitHub 저장소`, title: 'GitHub 저장소' }, icon('github'))),
     el('div', { class: 'downloads' }, ...downloads.map(item => {
       const [iconName, label] = store(item.url);
       return el('a', { class: 'btn primary', ...linkAttrs(item.url) },
