@@ -167,10 +167,11 @@ async function renderManuals(collections) {
     const base = new URL(collection.base, location.href);
     const header = el('div', { class: 'collection-head' },
       el('h3', {}, collection.title),
-      el('a', { ...linkAttrs(base.href), class: 'more' }, '전체 보기 →'));
+      el('a', { ...linkAttrs(new URL(collection.more ?? '', base).href), class: 'more' }, '전체 보기 →'));
     try {
       const catalog = await readJSON(new URL(collection.catalog, base).href);
-      const grid = el('div', { class: 'manuals' }, ...catalog.manuals.map(book => {
+      const books = catalog.manuals.filter(book => (book.collection ?? null) === (collection.collection ?? null));
+      const grid = el('div', { class: 'manuals' }, ...books.map(book => {
         const href = new URL(`${collection.viewer}?book=${encodeURIComponent(book.id)}&page=1`, base).href;
         return el('a', { class: 'manual', href },
           el('span', { class: 'manual-cover' }, el('img', { src: new URL(book.cover, base).href, alt: '', loading: 'lazy', decoding: 'async' })),
