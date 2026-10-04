@@ -1,57 +1,6 @@
 {
   "projects": [
     {
-      "id": "sonic-mega-collection-plus-ps2-korean",
-      "title": "소닉 메가 컬렉션 플러스",
-      "originalTitle": "Sonic Mega Collection Plus",
-      "year": 2004,
-      "platform": "ps2",
-      "base": "일본판 PS2",
-      "version": "v1.0.0",
-      "status": "released",
-      "updated": "2026-10-04",
-      "summary": "메뉴 텍스트와 UI 이미지를 한국어화하고, 수록 매뉴얼 7종을 번역했습니다.",
-      "image": "assets/img/games/sonic-mega-collection-plus.jpg",
-      "imagePosition": "center 62%",
-      "links": {
-        "download": "https://github.com/nonunsaram/sonic-mega-collection-plus-ps2-korean/releases/tag/v1.0.0",
-        "guide": "https://github.com/nonunsaram/sonic-mega-collection-plus-ps2-korean#readme",
-        "repo": "https://github.com/nonunsaram/sonic-mega-collection-plus-ps2-korean",
-        "site": "https://nonunsaram.github.io/sonic-mega-collection-plus-ps2-korean/"
-      }
-    },
-    {
-      "id": "sonic-heroes-korean",
-      "title": "소닉 히어로즈",
-      "originalTitle": "Sonic Heroes",
-      "year": 2003,
-      "platform": [
-        "gamecube",
-        "pc"
-      ],
-      "base": "일본판 · 미국판 GC, PC (Reloaded II)",
-      "version": "GC v1.1.0",
-      "status": "released",
-      "updated": "2026-10-04",
-      "summary": "GC판은 복원판과 번역수정판을 일본어·영어 음성으로 제공하고, PC판은 번역을 새로 다듬은 모드입니다.",
-      "image": "assets/img/games/sonic-heroes.jpg",
-      "imagePosition": "center 55%",
-      "downloads": [
-        {
-          "label": "GC",
-          "url": "https://github.com/nonunsaram/sonic-heroes-gamecube-korean/releases/tag/v1.1.0"
-        },
-        {
-          "label": "PC",
-          "url": "https://gamebanana.com/mods/709498"
-        }
-      ],
-      "links": {
-        "guide": "https://github.com/nonunsaram/sonic-heroes-gamecube-korean#readme",
-        "repo": "https://github.com/nonunsaram/sonic-heroes-gamecube-korean"
-      }
-    },
-    {
       "id": "unleashed-recompiled-korean",
       "title": "언리쉬드 리컴파일드",
       "originalTitle": "Unleashed Recompiled",
@@ -112,6 +61,76 @@
       }
     },
     {
+      "id": "sonic-heroes-korean",
+      "title": "소닉 히어로즈",
+      "originalTitle": "Sonic Heroes",
+      "year": 2003,
+      "platform": [
+        "gamecube",
+        "pc"
+      ],
+      "base": "일본판 · 미국판 GC, PC (Reloaded II)",
+      "version": "GC v1.1.0",
+      "status": "released",
+      "updated": "2026-10-04",
+      "summary": "GC판은 복원판과 번역수정판을 일본어·영어 음성으로 제공하고, PC판은 번역을 새로 다듬은 모드입니다.",
+      "image": "assets/img/games/sonic-heroes.jpg",
+      "imagePosition": "center 55%",
+      "downloads": [
+        {
+          "label": "GC",
+          "url": "https://github.com/nonunsaram/sonic-heroes-gamecube-korean/releases/tag/v1.1.0"
+        },
+        {
+          "label": "PC",
+          "url": "https://gamebanana.com/mods/709498"
+        }
+      ],
+      "links": {
+        "guide": "https://github.com/nonunsaram/sonic-heroes-gamecube-korean#readme",
+        "repo": "https://github.com/nonunsaram/sonic-heroes-gamecube-korean"
+      }
+    },
+    {
+      "id": "sonic-mega-collection-plus-ps2-korean",
+      "title": "소닉 메가 컬렉션 플러스",
+      "originalTitle": "Sonic Mega Collection Plus",
+      "year": 2004,
+      "platform": "ps2",
+      "base": "일본판 PS2",
+      "version": "v1.0.0",
+      "status": "released",
+      "updated": "2026-10-04",
+      "summary": "메뉴 텍스트와 UI 이미지를 한국어화하고, 수록 매뉴얼 7종을 번역했습니다.",
+      "image": "assets/img/games/sonic-mega-collection-plus.jpg",
+      "imagePosition": "center 62%",
+      "links": {
+        "download": "https://github.com/nonunsaram/sonic-mega-collection-plus-ps2-korean/releases/tag/v1.0.0",
+        "guide": "https://github.com/nonunsaram/sonic-mega-collection-plus-ps2-korean#readme",
+        "repo": "https://github.com/nonunsaram/sonic-mega-collection-plus-ps2-korean",
+        "site": "https://nonunsaram.github.io/sonic-mega-collection-plus-ps2-korean/"
+      }
+    },
+    {
+      "id": "sonic-riders-korean",
+      "title": "소닉 라이더즈",
+      "originalTitle": "Sonic Riders",
+      "year": 2006,
+      "platform": "gamecube",
+      "base": "일본판 GC (GXEJ8P)",
+      "version": "v1.0",
+      "status": "released",
+      "updated": "2026-09-27",
+      "summary": "메뉴·기어·미션·스토리 자막을 번역하고 튜토리얼 영상에 한국어 자막을 넣었습니다.",
+      "image": "assets/img/games/sonic-riders.jpg",
+      "imagePosition": "center 40%",
+      "links": {
+        "download": "https://github.com/nonunsaram/sonic-riders-korean/releases/tag/v1.0",
+        "guide": "https://github.com/nonunsaram/sonic-riders-korean#readme",
+        "repo": "https://github.com/nonunsaram/sonic-riders-korean"
+      }
+    },
+    {
       "id": "shadow-the-hedgehog-reloaded-korean",
       "title": "섀도우 더 헤지혹: 리로디드",
       "originalTitle": "Shadow the Hedgehog: Reloaded",
@@ -146,25 +165,6 @@
         "download": "https://github.com/nonunsaram/shadow-the-hedgehog-korean/releases/latest",
         "guide": "https://github.com/nonunsaram/shadow-the-hedgehog-korean#readme",
         "repo": "https://github.com/nonunsaram/shadow-the-hedgehog-korean"
-      }
-    },
-    {
-      "id": "sonic-riders-korean",
-      "title": "소닉 라이더즈",
-      "originalTitle": "Sonic Riders",
-      "year": 2006,
-      "platform": "gamecube",
-      "base": "일본판 GC (GXEJ8P)",
-      "version": "v1.0",
-      "status": "released",
-      "updated": "2026-09-27",
-      "summary": "메뉴·기어·미션·스토리 자막을 번역하고 튜토리얼 영상에 한국어 자막을 넣었습니다.",
-      "image": "assets/img/games/sonic-riders.jpg",
-      "imagePosition": "center 40%",
-      "links": {
-        "download": "https://github.com/nonunsaram/sonic-riders-korean/releases/tag/v1.0",
-        "guide": "https://github.com/nonunsaram/sonic-riders-korean#readme",
-        "repo": "https://github.com/nonunsaram/sonic-riders-korean"
       }
     }
   ]
