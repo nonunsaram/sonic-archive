@@ -35,7 +35,7 @@
         "guide": "https://github.com/nonunsaram/project-reignition-korean#readme",
         "repo": "https://github.com/nonunsaram/project-reignition-korean"
       },
-      "imagePosition": "center 35%"
+      "imagePosition": "center 48%"
     },
     {
       "id": "sonic-and-the-black-kinght-korean",
@@ -49,7 +49,7 @@
       "updated": "2026-09-29",
       "summary": "한글 UI와 본편·인게임 자막을 적용한 Dolphin용 시험 배포판입니다.",
       "image": "assets/img/games/sonic-black-knight.jpg",
-      "imagePosition": "center 35%",
+      "imagePosition": "center 30%",
       "highlights": [
         "Xbox 패드 프로필 포함"
       ],
@@ -160,7 +160,7 @@
       "updated": "2026-10-04",
       "summary": "원본 GameCube판의 게임플레이와 화면비를 그대로 유지하는 한국어 패치입니다. 일본어·영어 음성을 모두 지원합니다.",
       "image": "assets/img/games/shadow-the-hedgehog.jpg",
-      "imagePosition": "center 35%",
+      "imagePosition": "center 42%",
       "links": {
         "download": "https://github.com/nonunsaram/shadow-the-hedgehog-korean/releases/latest",
         "guide": "https://github.com/nonunsaram/shadow-the-hedgehog-korean#readme",
