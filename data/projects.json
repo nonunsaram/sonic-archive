@@ -52,12 +52,9 @@
       "version": "v1.0",
       "status": "released",
       "updated": "2026-10-04",
-      "summary": "한글 UI와 본편·인게임·특전 자막을 적용한 Dolphin용 한국어 패치입니다. 원본 ISO에 적용해 한국어판 ISO를 만듭니다.",
+      "summary": "한글 UI와 본편·인게임·특전 자막을 적용한 Dolphin용 한국어 패치입니다. 원본 ISO에 적용해 한국어판 ISO를 만듭니다. Xbox 컨트롤러용 설정도 있습니다.",
       "image": "assets/img/games/sonic-black-knight.jpg",
       "imagePosition": "center 30%",
-      "highlights": [
-        "Xbox 패드 프로필 포함"
-      ],
       "links": {
         "download": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean/releases/tag/v1.0",
         "guide": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean#readme",
