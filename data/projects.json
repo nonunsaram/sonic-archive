@@ -52,9 +52,70 @@
       }
     },
     {
+      "id": "unleashed-recompiled-korean",
+      "title": "언리쉬드 리컴파일드",
+      "originalTitle": "Unleashed Recompiled",
+      "year": 2025,
+      "platform": "pc",
+      "base": "Windows x64 v1.0.3",
+      "version": "1.0.6",
+      "status": "released",
+      "updated": "2026-10-04",
+      "summary": "대사·자막·월드맵·미션 설명·UI를 번역하는 HMM 모드입니다. 전체판은 EXE 옵션 화면까지 한국어화합니다.",
+      "image": "assets/img/games/sonic-unleashed.jpg",
+      "links": {
+        "download": "https://gamebanana.com/mods/715787",
+        "guide": "https://github.com/nonunsaram/unleashed-recompiled-korean/blob/main/Release/v1.0.6/README-KO.md",
+        "repo": "https://github.com/nonunsaram/unleashed-recompiled-korean"
+      }
+    },
+    {
+      "id": "project-reignition-korean",
+      "title": "프로젝트 리이그니션",
+      "originalTitle": "Project Reignition",
+      "year": 2026,
+      "platform": "pc",
+      "base": "Windows v1.0.2",
+      "version": "v0.3",
+      "status": "released",
+      "updated": "2026-09-07",
+      "summary": "소닉과 비밀의 링 팬 리메이크용 한국어 언어 모드입니다. 설치.bat 한 번으로 적용합니다.",
+      "image": "assets/img/games/project-reignition-logo.png",
+      "imageFit": "contain",
+      "links": {
+        "download": "https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3",
+        "guide": "https://github.com/nonunsaram/project-reignition-korean#readme",
+        "repo": "https://github.com/nonunsaram/project-reignition-korean"
+      }
+    },
+    {
+      "id": "sonic-and-the-black-kinght-korean",
+      "title": "소닉과 암흑의 기사",
+      "originalTitle": "Sonic and the Black Knight",
+      "year": 2009,
+      "platform": "wii",
+      "base": "북미판 Wii (RENE8P)",
+      "version": "v0.1 alpha",
+      "status": "alpha",
+      "updated": "2026-09-29",
+      "summary": "한글 UI와 본편·인게임 자막을 적용한 Dolphin용 시험 배포판입니다.",
+      "image": "assets/img/games/sonic-black-knight.jpg",
+      "imagePosition": "center 30%",
+      "highlights": [
+        "Xbox 패드 프로필 포함"
+      ],
+      "links": {
+        "download": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean/releases",
+        "guide": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean#readme",
+        "repo": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean",
+        "issues": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean/issues"
+      }
+    },
+    {
       "id": "shadow-the-hedgehog-reloaded-korean",
       "title": "섀도우 더 헤지혹: 리로디드",
       "originalTitle": "Shadow the Hedgehog: Reloaded",
+      "year": 2022,
       "platform": "gamecube",
       "base": "Reloaded v1.2 (GC)",
       "version": "v1.0",
@@ -88,47 +149,6 @@
       }
     },
     {
-      "id": "unleashed-recompiled-korean",
-      "title": "언리쉬드 리컴파일드",
-      "originalTitle": "Unleashed Recompiled",
-      "year": 2025,
-      "platform": "pc",
-      "base": "Windows x64 v1.0.3",
-      "version": "1.0.6",
-      "status": "released",
-      "updated": "2026-10-04",
-      "summary": "대사·자막·월드맵·미션 설명·UI를 번역하는 HMM 모드입니다. 전체판은 EXE 옵션 화면까지 한국어화합니다.",
-      "image": "assets/img/games/sonic-unleashed.jpg",
-      "links": {
-        "download": "https://gamebanana.com/mods/715787",
-        "guide": "https://github.com/nonunsaram/unleashed-recompiled-korean/blob/main/Release/v1.0.6/README-KO.md",
-        "repo": "https://github.com/nonunsaram/unleashed-recompiled-korean"
-      }
-    },
-    {
-      "id": "sonic-and-the-black-kinght-korean",
-      "title": "소닉과 암흑의 기사",
-      "originalTitle": "Sonic and the Black Knight",
-      "year": 2009,
-      "platform": "wii",
-      "base": "북미판 Wii (RENE8P)",
-      "version": "v0.1 alpha",
-      "status": "alpha",
-      "updated": "2026-09-29",
-      "summary": "한글 UI와 본편·인게임 자막을 적용한 Dolphin용 시험 배포판입니다.",
-      "image": "assets/img/games/sonic-black-knight.jpg",
-      "imagePosition": "center 30%",
-      "highlights": [
-        "Xbox 패드 프로필 포함"
-      ],
-      "links": {
-        "download": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean/releases",
-        "guide": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean#readme",
-        "repo": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean",
-        "issues": "https://github.com/nonunsaram/sonic-and-the-black-kinght-korean/issues"
-      }
-    },
-    {
       "id": "sonic-riders-korean",
       "title": "소닉 라이더즈",
       "originalTitle": "Sonic Riders",
@@ -145,24 +165,6 @@
         "download": "https://github.com/nonunsaram/sonic-riders-korean/releases/tag/v1.0",
         "guide": "https://github.com/nonunsaram/sonic-riders-korean#readme",
         "repo": "https://github.com/nonunsaram/sonic-riders-korean"
-      }
-    },
-    {
-      "id": "project-reignition-korean",
-      "title": "프로젝트 리이그니션",
-      "originalTitle": "Project Reignition",
-      "platform": "pc",
-      "base": "Windows v1.0.2",
-      "version": "v0.3",
-      "status": "released",
-      "updated": "2026-09-07",
-      "summary": "소닉과 비밀의 링 팬 리메이크용 한국어 언어 모드입니다. 설치.bat 한 번으로 적용합니다.",
-      "image": "assets/img/games/project-reignition-logo.png",
-      "imageFit": "contain",
-      "links": {
-        "download": "https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3",
-        "guide": "https://github.com/nonunsaram/project-reignition-korean#readme",
-        "repo": "https://github.com/nonunsaram/project-reignition-korean"
       }
     }
   ]

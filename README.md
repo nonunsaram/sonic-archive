@@ -4,7 +4,7 @@ https://nonunsaram.github.io/sonic-archive/ 에 게시되는 소닉 시리즈 �
 
 ## 프로젝트 추가·수정
 
-`data/projects.json`의 `projects` 배열에 항목을 하나 추가하면 됩니다. 순서는 상관없고, 화면에는 `updated`가 최신인 순서로 표시됩니다.
+`data/projects.json`의 `projects` 배열에 항목을 하나 추가하면 됩니다. 화면에는 이 배열에 적힌 순서 그대로 표시되니, 보여 주고 싶은 자리에 넣으면 됩니다.
 
 ```json
 {
@@ -41,7 +41,7 @@ https://nonunsaram.github.io/sonic-archive/ 에 게시되는 소닉 시리즈 �
 | `imageFit` | 로고처럼 잘리면 안 되는 그림은 `"contain"` (선택) |
 | `imagePosition` | 세로로 긴 표지에서 보여 줄 위치 (선택). 예: `"center 30%"` (0%는 위, 100%는 아래) |
 | `logo` | 대표 그림 위에 겹쳐 올릴 투명 로고 (선택) |
-| `version`, `updated` | 선택. `updated`가 없으면 `related`의 첫 프로젝트 바로 뒤에 표시됩니다. |
+| `version`, `updated` | 선택. 가장 최근 `updated`가 맨 아래 "최종 업데이트"에 표시됩니다. |
 
 ## 매뉴얼 추가
 

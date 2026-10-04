@@ -117,13 +117,9 @@ function projectCard(project, platforms, byId) {
 }
 
 function renderProjects(projects, platforms) {
-  // 최근 업데이트 순으로 정렬하고, 날짜가 없는 항목은 관련 프로젝트 바로 뒤에 둡니다.
+  // data/projects.json에 적힌 순서 그대로 보여 줍니다.
+  const sorted = projects;
   const dated = projects.filter(project => project.updated).sort((a, b) => b.updated.localeCompare(a.updated));
-  const sorted = [...dated];
-  for (const project of projects.filter(item => !item.updated)) {
-    const anchor = sorted.findIndex(item => (project.related ?? []).includes(item.id));
-    sorted.splice(anchor < 0 ? sorted.length : anchor + 1, 0, project);
-  }
   const byId = new Map(sorted.map(project => [project.id, project]));
   const cards = sorted.map(project => projectCard(project, platforms, byId));
   $('#project-list').replaceChildren(...cards);
@@ -139,7 +135,7 @@ function renderProjects(projects, platforms) {
       card.hidden = !visible;
       shown += visible;
     }
-    $('#projects-status').textContent = `${shown}개의 한국어 패치 · 최근 업데이트 순`;
+    $('#projects-status').textContent = `${shown}개의 한국어 패치`;
   };
   $('#filters').replaceChildren(...options.map(([id, label, count]) => {
     const button = el('button', { type: 'button', class: 'chip', 'data-filter': id, 'aria-pressed': 'false' }, label, el('span', { class: 'count' }, String(count)));
