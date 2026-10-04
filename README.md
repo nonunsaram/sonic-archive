@@ -4,7 +4,7 @@ https://nonunsaram.github.io/sonic-archive/ 에 게시되는 소닉 시리즈 �
 
 ## 프로젝트 추가·수정
 
-`data/projects.json`의 `projects` 배열에 항목을 하나 추가하면 됩니다. 순서는 상관없고, 화면에는 `updated`가 최신인 순서로 표시됩니다.
+`data/projects.json`의 `projects` 배열에 항목을 하나 추가하면 됩니다. 화면에는 이 배열에 적힌 순서 그대로 표시되니, 보여 주고 싶은 자리에 넣으면 됩니다.
 
 ```json
 {
@@ -32,6 +32,7 @@ https://nonunsaram.github.io/sonic-archive/ 에 게시되는 소닉 시리즈 �
 | --- | --- |
 | `id` | 저장소 이름 권장. 카드 주소(`#id`)로도 쓰입니다. |
 | `platform` | `data/platforms.json`의 키 (`gamecube`, `wii`, `ps2`, `pc`, `megadrive`). 새 기종은 그 파일에 이름과 색을 추가합니다. 여러 기종을 한 카드에 묶으려면 `["gamecube", "pc"]`처럼 배열로 적습니다. |
+| `year` | 선택. 원작 발매연도. 영어 제목 옆에 (2003)처럼 붙습니다. |
 | `status` | `released`(배포 중), `beta`, `alpha`, `wip`(작업 중) |
 | `links` | 모두 선택 항목입니다. `download`, `guide`, `site`(소개·매뉴얼 사이트), `issues`, `repo` |
 | `downloads` | 선택. 판마다 받는 곳이 다를 때 `[{ "label": "PC", "url": "…" }]`처럼 여러 개 적습니다. 다운로드 버튼은 주소를 보고 GitHub Releases / GameBanana 아이콘을 자동으로 붙입니다. |
@@ -40,7 +41,7 @@ https://nonunsaram.github.io/sonic-archive/ 에 게시되는 소닉 시리즈 �
 | `imageFit` | 로고처럼 잘리면 안 되는 그림은 `"contain"` (선택) |
 | `imagePosition` | 세로로 긴 표지에서 보여 줄 위치 (선택). 예: `"center 30%"` (0%는 위, 100%는 아래) |
 | `logo` | 대표 그림 위에 겹쳐 올릴 투명 로고 (선택) |
-| `version`, `updated` | 선택. `updated`가 없으면 `related`의 첫 프로젝트 바로 뒤에 표시됩니다. |
+| `version`, `updated` | 선택. 가장 최근 `updated`가 맨 아래 "최종 업데이트"에 표시됩니다. |
 
 ## 매뉴얼 추가
 

@@ -4,6 +4,7 @@
       "id": "sonic-mega-collection-plus-ps2-korean",
       "title": "소닉 메가 컬렉션 플러스",
       "originalTitle": "Sonic Mega Collection Plus",
+      "year": 2004,
       "platform": "ps2",
       "base": "일본판 PS2",
       "version": "v1.0.0",
@@ -23,6 +24,7 @@
       "id": "sonic-heroes-korean",
       "title": "소닉 히어로즈",
       "originalTitle": "Sonic Heroes",
+      "year": 2003,
       "platform": [
         "gamecube",
         "pc"
@@ -50,44 +52,10 @@
       }
     },
     {
-      "id": "shadow-the-hedgehog-reloaded-korean",
-      "title": "섀도우 더 헤지혹: 리로디드",
-      "originalTitle": "Shadow the Hedgehog: Reloaded",
-      "platform": "gamecube",
-      "base": "Reloaded v1.2 (GC)",
-      "version": "v1.0",
-      "status": "released",
-      "updated": "2026-10-04",
-      "summary": "팬 제작 개선판 Reloaded v1.2용 한국어 패처입니다. 4:3과 와이드스크린을 자동으로 감지하고, 일본어·영어 음성을 모두 지원합니다.",
-      "image": "assets/img/games/shadow-reloaded.jpg",
-      "links": {
-        "download": "https://github.com/nonunsaram/shadow-the-hedgehog-reloaded-korean/releases/tag/v1.0",
-        "guide": "https://github.com/nonunsaram/shadow-the-hedgehog-reloaded-korean/blob/main/COMMUNITY_POST_GUIDE.md",
-        "repo": "https://github.com/nonunsaram/shadow-the-hedgehog-reloaded-korean"
-      }
-    },
-    {
-      "id": "shadow-the-hedgehog-korean",
-      "title": "섀도우 더 헤지혹",
-      "originalTitle": "Shadow the Hedgehog",
-      "platform": "gamecube",
-      "base": "일본판 · 미국판 GC",
-      "version": "v0.1",
-      "status": "released",
-      "updated": "2026-10-04",
-      "summary": "원본 GameCube판의 게임플레이와 화면비를 그대로 유지하는 한국어 패치입니다. 일본어·영어 음성을 모두 지원합니다.",
-      "image": "assets/img/games/shadow-the-hedgehog.jpg",
-      "imagePosition": "center 42%",
-      "links": {
-        "download": "https://github.com/nonunsaram/shadow-the-hedgehog-korean/releases/latest",
-        "guide": "https://github.com/nonunsaram/shadow-the-hedgehog-korean#readme",
-        "repo": "https://github.com/nonunsaram/shadow-the-hedgehog-korean"
-      }
-    },
-    {
       "id": "unleashed-recompiled-korean",
       "title": "언리쉬드 리컴파일드",
       "originalTitle": "Unleashed Recompiled",
+      "year": 2025,
       "platform": "pc",
       "base": "Windows x64 v1.0.3",
       "version": "1.0.6",
@@ -102,9 +70,29 @@
       }
     },
     {
+      "id": "project-reignition-korean",
+      "title": "프로젝트 리이그니션",
+      "originalTitle": "Project Reignition",
+      "year": 2026,
+      "platform": "pc",
+      "base": "Windows v1.0.2",
+      "version": "v0.3",
+      "status": "released",
+      "updated": "2026-09-07",
+      "summary": "소닉과 비밀의 링 팬 리메이크용 한국어 언어 모드입니다. 설치.bat 한 번으로 적용합니다.",
+      "image": "assets/img/games/project-reignition-logo.png",
+      "imageFit": "contain",
+      "links": {
+        "download": "https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3",
+        "guide": "https://github.com/nonunsaram/project-reignition-korean#readme",
+        "repo": "https://github.com/nonunsaram/project-reignition-korean"
+      }
+    },
+    {
       "id": "sonic-and-the-black-kinght-korean",
       "title": "소닉과 암흑의 기사",
       "originalTitle": "Sonic and the Black Knight",
+      "year": 2009,
       "platform": "wii",
       "base": "북미판 Wii (RENE8P)",
       "version": "v0.1 alpha",
@@ -124,9 +112,47 @@
       }
     },
     {
+      "id": "shadow-the-hedgehog-reloaded-korean",
+      "title": "섀도우 더 헤지혹: 리로디드",
+      "originalTitle": "Shadow the Hedgehog: Reloaded",
+      "year": 2022,
+      "platform": "gamecube",
+      "base": "Reloaded v1.2 (GC)",
+      "version": "v1.0",
+      "status": "released",
+      "updated": "2026-10-04",
+      "summary": "팬 제작 개선판 Reloaded v1.2용 한국어 패처입니다. 4:3과 와이드스크린을 자동으로 감지하고, 일본어·영어 음성을 모두 지원합니다.",
+      "image": "assets/img/games/shadow-reloaded.jpg",
+      "links": {
+        "download": "https://github.com/nonunsaram/shadow-the-hedgehog-reloaded-korean/releases/tag/v1.0",
+        "guide": "https://github.com/nonunsaram/shadow-the-hedgehog-reloaded-korean/blob/main/COMMUNITY_POST_GUIDE.md",
+        "repo": "https://github.com/nonunsaram/shadow-the-hedgehog-reloaded-korean"
+      }
+    },
+    {
+      "id": "shadow-the-hedgehog-korean",
+      "title": "섀도우 더 헤지혹",
+      "originalTitle": "Shadow the Hedgehog",
+      "year": 2005,
+      "platform": "gamecube",
+      "base": "일본판 · 미국판 GC",
+      "version": "v0.1",
+      "status": "released",
+      "updated": "2026-10-04",
+      "summary": "원본 GameCube판의 게임플레이와 화면비를 그대로 유지하는 한국어 패치입니다. 일본어·영어 음성을 모두 지원합니다.",
+      "image": "assets/img/games/shadow-the-hedgehog.jpg",
+      "imagePosition": "center 42%",
+      "links": {
+        "download": "https://github.com/nonunsaram/shadow-the-hedgehog-korean/releases/latest",
+        "guide": "https://github.com/nonunsaram/shadow-the-hedgehog-korean#readme",
+        "repo": "https://github.com/nonunsaram/shadow-the-hedgehog-korean"
+      }
+    },
+    {
       "id": "sonic-riders-korean",
       "title": "소닉 라이더즈",
       "originalTitle": "Sonic Riders",
+      "year": 2006,
       "platform": "gamecube",
       "base": "일본판 GC (GXEJ8P)",
       "version": "v1.0",
@@ -139,24 +165,6 @@
         "download": "https://github.com/nonunsaram/sonic-riders-korean/releases/tag/v1.0",
         "guide": "https://github.com/nonunsaram/sonic-riders-korean#readme",
         "repo": "https://github.com/nonunsaram/sonic-riders-korean"
-      }
-    },
-    {
-      "id": "project-reignition-korean",
-      "title": "프로젝트 리이그니션",
-      "originalTitle": "Project Reignition",
-      "platform": "pc",
-      "base": "Windows v1.0.2",
-      "version": "v0.3",
-      "status": "released",
-      "updated": "2026-09-07",
-      "summary": "소닉과 비밀의 링 팬 리메이크용 한국어 언어 모드입니다. 설치.bat 한 번으로 적용합니다.",
-      "image": "assets/img/games/project-reignition-logo.png",
-      "imageFit": "contain",
-      "links": {
-        "download": "https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3",
-        "guide": "https://github.com/nonunsaram/project-reignition-korean#readme",
-        "repo": "https://github.com/nonunsaram/project-reignition-korean"
       }
     }
   ]
