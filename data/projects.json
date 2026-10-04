@@ -185,10 +185,10 @@
       "platform": "gamecube",
       "targets": [
         {
-          "label": "Reloaded v1.2를 적용한 GC ISO (4:3 · 와이드)"
+          "label": "Reloaded v1.2 ISO (4:3 · 와이드)"
         },
         {
-          "label": "일본어 음성 선택 시 일본판 원본 GC",
+          "label": "일본어 음성 선택 시 일본판 GC",
           "id": "GUPJ8P"
         }
       ],
