@@ -35,7 +35,7 @@
         "guide": "https://github.com/nonunsaram/project-reignition-korean#readme",
         "repo": "https://github.com/nonunsaram/project-reignition-korean"
       },
-      "imagePosition": "center 35%"
+      "imagePosition": "center 42%"
     },
     {
       "id": "sonic-and-the-black-kinght-korean",
@@ -49,7 +49,7 @@
       "updated": "2026-09-29",
       "summary": "한글 UI와 본편·인게임 자막을 적용한 Dolphin용 시험 배포판입니다.",
       "image": "assets/img/games/sonic-black-knight.jpg",
-      "imagePosition": "center 30%",
+      "imagePosition": "center 42%",
       "highlights": [
         "Xbox 패드 프로필 포함"
       ],
