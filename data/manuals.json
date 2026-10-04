@@ -7,6 +7,16 @@
       "base": "https://nonunsaram.github.io/sonic-mega-collection-plus-ps2-korean/",
       "catalog": "data/catalog.json",
       "viewer": "manual.html"
+    },
+    {
+      "id": "sonic-gems-collection",
+      "title": "소닉 젬스 컬렉션 수록 매뉴얼",
+      "collection": "gems",
+      "project": "sonic-mega-collection-plus-ps2-korean",
+      "base": "https://nonunsaram.github.io/sonic-mega-collection-plus-ps2-korean/",
+      "catalog": "data/catalog.json",
+      "viewer": "manual.html",
+      "more": "#gems"
     }
   ]
 }
