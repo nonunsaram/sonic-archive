@@ -29,13 +29,13 @@
       "status": "released",
       "updated": "2026-09-07",
       "summary": "소닉과 비밀의 링 팬 리메이크용 한국어 언어 모드입니다. 설치.bat 한 번으로 적용합니다.",
-      "image": "assets/img/games/project-reignition-logo.png",
-      "imageFit": "contain",
+      "image": "assets/img/games/secret-rings.jpg",
       "links": {
         "download": "https://github.com/nonunsaram/project-reignition-korean/releases/tag/v0.3",
         "guide": "https://github.com/nonunsaram/project-reignition-korean#readme",
         "repo": "https://github.com/nonunsaram/project-reignition-korean"
-      }
+      },
+      "imagePosition": "center 42%"
     },
     {
       "id": "sonic-and-the-black-kinght-korean",
@@ -49,7 +49,7 @@
       "updated": "2026-09-29",
       "summary": "한글 UI와 본편·인게임 자막을 적용한 Dolphin용 시험 배포판입니다.",
       "image": "assets/img/games/sonic-black-knight.jpg",
-      "imagePosition": "center 30%",
+      "imagePosition": "center 42%",
       "highlights": [
         "Xbox 패드 프로필 포함"
       ],
