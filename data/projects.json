@@ -134,6 +134,29 @@
       }
     },
     {
+      "id": "sonic-gems-collection-gc-korean",
+      "title": "소닉 젬스 컬렉션",
+      "originalTitle": "Sonic Gems Collection",
+      "year": 2005,
+      "platform": "gamecube",
+      "targets": [
+        {
+          "label": "일본판 GC",
+          "id": "G2XJ8P"
+        }
+      ],
+      "version": "v1.0.0",
+      "status": "released",
+      "updated": "2026-10-05",
+      "summary": "젬스 본문·힌트·뮤지엄과 소닉 CD 텍스트, UI 이미지를 한국어화하고 수록 매뉴얼 5종을 번역했습니다.",
+      "image": "assets/img/games/sonic-gems-collection.jpg",
+      "links": {
+        "download": "https://github.com/nonunsaram/sonic-gems-collection-gc-korean/releases/tag/v1.0.0",
+        "guide": "https://github.com/nonunsaram/sonic-gems-collection-gc-korean#readme",
+        "repo": "https://github.com/nonunsaram/sonic-gems-collection-gc-korean"
+      }
+    },
+    {
       "id": "sonic-riders-korean",
       "title": "소닉 라이더즈",
       "originalTitle": "Sonic Riders",
