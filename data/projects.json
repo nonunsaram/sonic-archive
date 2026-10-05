@@ -16,7 +16,19 @@
         "download": "https://gamebanana.com/mods/715787",
         "guide": "https://github.com/nonunsaram/unleashed-recompiled-korean/blob/main/Release/v1.0.6/README-KO.md",
         "repo": "https://github.com/nonunsaram/unleashed-recompiled-korean"
-      }
+      },
+      "downloads": [
+        {
+          "label": "PC",
+          "url": "https://gamebanana.com/mods/715787"
+        },
+        {
+          "label": "iOS",
+          "text": "한글 내장 시험판",
+          "note": "실기 미검증",
+          "url": "https://github.com/nonunsaram/unleashed-recompiled-korean/releases/tag/ios-r1-ko-basic-1.0.6-test.1"
+        }
+      ]
     },
     {
       "id": "project-reignition-korean",
