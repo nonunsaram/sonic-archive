@@ -102,9 +102,11 @@ function projectCard(project, platforms, byId) {
       project.highlights?.length > 0 && el('li', {}, el('span', {}, '특징'), project.highlights.join(' · ')),
       related.length > 0 && el('li', {}, el('span', {}, '관련'), ...related.map((item, index) => [index ? ', ' : '', el('a', { href: `#${item.id}` }, item.title)]))),
     el('div', { class: 'downloads' }, ...downloads.map(item => {
+      // "text"로 버튼 글자를, "note"로 시험판 같은 경고 표시를 바꿀 수 있습니다.
       const [iconName, label] = store(item.url);
-      return el('a', { class: 'btn primary', ...linkAttrs(item.url) },
-        item.label && el('span', { class: 'tag' }, item.label), iconName && icon(iconName), label);
+      return el('a', { class: `btn primary${item.note ? ' test' : ''}`, ...linkAttrs(item.url) },
+        item.label && el('span', { class: 'tag' }, item.label), iconName && icon(iconName), item.text ?? label,
+        item.note && el('span', { class: 'note' }, item.note));
     })));
   return el('article', { class: 'project', id: project.id, 'data-platform': platformIds(project).join(' ') },
     projectMedia(project, platform),
