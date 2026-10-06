@@ -220,7 +220,10 @@
       "title": "섀도우 더 헤지혹",
       "originalTitle": "Shadow the Hedgehog",
       "year": 2005,
-      "platform": "gamecube",
+      "platform": [
+        "gamecube",
+        "ps2"
+      ],
       "targets": [
         {
           "label": "일본판 GC",
@@ -229,16 +232,24 @@
         {
           "label": "미국판 GC",
           "id": "GUPE8P"
+        },
+        {
+          "label": "일본판 PS2",
+          "id": "SLPM-66166"
+        },
+        {
+          "label": "한국 정발판 PS2",
+          "id": "SLKA-25335"
         }
       ],
-      "version": "v0.1",
+      "version": "GC v0.2 · PS2 v0.1",
       "status": "released",
-      "updated": "2026-10-04",
-      "summary": "원본 GameCube판의 게임플레이와 화면비를 그대로 유지하는 한국어 패치입니다. 일본어·영어 음성을 모두 지원합니다.",
+      "updated": "2026-10-06",
+      "summary": "원본 게임플레이와 화면비를 그대로 유지하는 한국어 패치입니다. GC판은 일본판 일본어·미국판 영어 음성, PS2판은 일본어·영어 음성 선택을 지원합니다.",
       "image": "assets/img/games/shadow-the-hedgehog.jpg",
       "imagePosition": "center 42%",
       "links": {
-        "download": "https://github.com/nonunsaram/shadow-the-hedgehog-korean/releases/latest",
+        "download": "https://github.com/nonunsaram/shadow-the-hedgehog-korean/releases/tag/v0.2",
         "guide": "https://github.com/nonunsaram/shadow-the-hedgehog-korean#readme",
         "repo": "https://github.com/nonunsaram/shadow-the-hedgehog-korean"
       }
